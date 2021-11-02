@@ -20,4 +20,10 @@ pub fn run() {
     //Assign multiple variables
     let (my_name, my_age) = ("Will Smith", 55);
     println!("A famous actor is named {}, and is {} years old", my_name, my_age);
+
+/*
+    let mutable = true;
+    mutable = false; leads to error 
+    let mutable = false; //overwrites previous variable with shadowing
+*/
 }

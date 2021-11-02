@@ -12,4 +12,6 @@ pub fn run() {
     //You can use placeholder traits to convert certain integers
     println!("Binary: {:b}, Octal: {:o}, Hex: {:x}", 10,10,10);
 
+    //println!("Debugger: {:?}", variable) this debugger will be seen in other files such as tuples and arrays
+
 }
