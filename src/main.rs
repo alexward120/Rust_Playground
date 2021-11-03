@@ -6,15 +6,20 @@
 //mod variables;
 //mod string;
 //mod tuple_arrays;
-mod vectors;
-
+//mod vectors;
+//mod conditionals;
+//mod loops;
+//mod functions;
+mod structs;
 fn main() {  //use cargo run to compile an run
     //print::run();  //:: is the scope modifer so you know what file to get a certain function from
     //variables::run();
     //string::run();
     //tuple_arrays::run_tuple();
     //tuple_arrays::run_array();
-    vectors::run();
-
-
+    //vectors::run();
+    //conditionals::run();
+    //loops::run();
+    //functions::run();
+    structs::run();
 }
