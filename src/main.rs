@@ -21,12 +21,6 @@ fn main() {  //use cargo run to compile an run
     //conditionals::run();
     //loops::run();
     //functions::run();
-    let a: i32 = i32::MAX; //10110 
-    let b: i32 = 2;
-
-    let result:i32;
-    result = a << b;
-    println!("{:b}", result);
 
 
 }
