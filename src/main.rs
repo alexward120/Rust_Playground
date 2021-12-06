@@ -10,7 +10,7 @@
 //mod conditionals;
 //mod loops;
 //mod functions;
-mod structs;
+//mod structs;
 fn main() {  //use cargo run to compile an run
     //print::run();  //:: is the scope modifer so you know what file to get a certain function from
     //variables::run();
@@ -21,5 +21,12 @@ fn main() {  //use cargo run to compile an run
     //conditionals::run();
     //loops::run();
     //functions::run();
-    structs::run();
+    let a: i32 = i32::MAX; //10110 
+    let b: i32 = 2;
+
+    let result:i32;
+    result = a << b;
+    println!("{:b}", result);
+
+
 }
